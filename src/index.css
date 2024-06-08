@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets/fonts/SF-Pro-Text/SFProText-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets/fonts/SF-Pro-Text/SFProText-Semibold.ttf")
+    format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./assets/fonts/SF-Pro-Display/SF-Pro-Display-Semibold.otf")
+    format("opentype");
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  font-family: "SF Pro Text", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
